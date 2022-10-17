@@ -4,15 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Q3
+namespace Q6
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            string results = "wddlwwdlww";
-
-
         }
     }
 }
