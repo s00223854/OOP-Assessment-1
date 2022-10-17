@@ -10,6 +10,10 @@ namespace OOP_Assessment_1
     {
         static void Main(string[] args)
         {
+            if (true)
+            {
+
+            }
         }
     }
 }
