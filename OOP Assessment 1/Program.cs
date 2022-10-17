@@ -10,9 +10,18 @@ namespace OOP_Assessment_1
     {
         static void Main(string[] args)
         {
-            if (true)
-            {
+            int userYear;
 
+            Console.WriteLine("enter your year of birth");
+            userYear = Convert.ToInt32(Console.ReadLine());
+
+            if (userYear > 2004)
+            {
+                Console.WriteLine("access denied");
+            }
+            else if (userYear <= 2004 && userYear >= 1900)
+            {
+                Console.WriteLine("access granted");
             }
         }
     }
